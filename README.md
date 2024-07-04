@@ -198,6 +198,15 @@ Orders received are sent to Postgres database by Order Service and then the data
    2. **Listening to topic**
    Listening to the topic dbChanges_tablename will give the data changes in the database.
 
+ ### Inventory Management
+ 1. Inventory Service was added to track the inventory using kafka connect and Debezium connector by tracking changes in Orders Database and updating the Inventory.
+
+ ### Microservices Architecture   
+![WhatsApp Image 2024-07-04 at 14 27 53_684b8763](https://github.com/amoghpandey2001/target_project_2/assets/114218468/996db000-3f90-491e-a5e2-6f9e74f88172)
+
+### Securing the orders API
+
+
    ## Conclusion
    This demo project illustrates the importance of tracking database changes which can be further used in Realtime Inventory management and Order Tracking and Management.
    
