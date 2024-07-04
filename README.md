@@ -207,6 +207,57 @@ Orders received are sent to Postgres database by Order Service and then the data
 
 ## Securing the orders API
 
+Here's a sample README file:
+
+---
+
+# API Endpoint Access
+
+## Unsecured Endpoint
+
+- **Endpoint**: `/target/orders`
+- **Description**: This endpoint is unsecured and can be accessed by anyone without any authentication.
+- **Access**: No token required.
+
+## Secured Endpoint
+
+- **Endpoint**: `/target/all-orders`
+- **Description**: This endpoint is secured and requires a valid JWT token for access.
+- **Access**:
+  1. Obtain a JWT token by logging in through the `/auth/login` endpoint.
+  2. Include the JWT token in the header of your request to access `/target/all-orders`.
+
+### Authentication Process
+
+1. **Login to obtain JWT Token**
+   - **Endpoint**: `/auth/login`
+   - **Method**: POST
+   - **Body**: 
+     ```json
+     {
+       "username": "your_username",
+       "password": "your_password"
+     }
+     ```
+   - **Response**: 
+     ```json
+     {
+       "token": "your_jwt_token"
+     }
+     ```
+
+2. **Accessing Secured Endpoint**
+   - **Endpoint**: `/target/all-orders`
+   - **Method**: GET
+   - **Header**: 
+     ```http
+     Authorization: Bearer your_jwt_token
+     ```
+
+---
+
+This README provides the necessary information on accessing the unsecured and secured endpoints, along with the process to obtain and use the JWT token for secured access.
+
 
    ## Conclusion
    This demo project illustrates the importance of tracking database changes which can be further used in Realtime Inventory management and Order Tracking and Management.
