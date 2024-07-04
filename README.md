@@ -207,11 +207,7 @@ Orders received are sent to Postgres database by Order Service and then the data
 
 ## Securing the orders API
 
-Here's a sample README file:
-
 ---
-
-# API Endpoint Access
 
 ## Unsecured Endpoint
 
@@ -235,8 +231,8 @@ Here's a sample README file:
    - **Body**: 
      ```json
      {
-       "username": "your_username",
-       "password": "your_password"
+       "email": "Pavan",
+       "password": "abcd"
      }
      ```
    - **Response**: 
@@ -255,8 +251,6 @@ Here's a sample README file:
      ```
 
 ---
-
-This README provides the necessary information on accessing the unsecured and secured endpoints, along with the process to obtain and use the JWT token for secured access.
 
 
    ## Conclusion
