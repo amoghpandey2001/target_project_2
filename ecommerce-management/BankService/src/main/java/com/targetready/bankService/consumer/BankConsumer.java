@@ -1,6 +1,5 @@
 package com.targetready.bankService.consumer;
 
-import com.targetready.bankService.service.InvoiceService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import com.targetready.orderService.model.Invoice;
@@ -15,11 +14,11 @@ public class BankConsumer {
    private  Invoice invoice;
     @Autowired
     private  BankProducer bankProducer;
-    private final InvoiceService invoiceService;
+//    private final InvoiceService invoiceService;
 
-    public BankConsumer( InvoiceService invoiceService) {
-        this.invoiceService = invoiceService;
-    }
+//    public BankConsumer( InvoiceService invoiceService) {
+//        this.invoiceService = invoiceService;
+//    }
 
 
     @KafkaListener(topics = "payments", groupId = "payment-group")
@@ -35,11 +34,7 @@ public class BankConsumer {
             invoice.setProductId(payment.getProductId());
             invoice.setQuantity(payment.getQuantity());
 
-//            logger.info("Saving invoice: {}", invoice);
-            invoiceService.saveInvoice(invoice);
-//            logger.info("Invoice saved: {}", invoice);
-//
-//            logger.info("Sending invoice to producer: {}", invoice);
+
             bankProducer.sendInvoice(invoice);
             logger.info("Invoice sent to producer: {}", invoice);
 

@@ -1,0 +1,14 @@
+
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…Šçÿÿÿÿÿ8¥æË‡2J$9b9ef992-0cfb-486b-8bc6-ec153010be2c
+…
+java:S6813("BRemove this field injection and use constructor injection instead.(êæÄŞ8¨æË‡2J$91b05e90-1a29-4cc6-a429-6d612764316e
+…
+java:S6813*"BRemove this field injection and use constructor injection instead.(êæÄŞ8¨æË‡2J$83670590-fd68-4df8-8294-d0db328273e1
+…
+java:S6813-"BRemove this field injection and use constructor injection instead.(êæÄŞ8¨æË‡2J$7e61fe9a-5053-4208-ab7d-1bc402367637
+…
+java:S68130"BRemove this field injection and use constructor injection instead.(êæÄŞ8¨æË‡2J$7d7d2031-922a-4c06-a64f-546dc6b0ef4f
+½
+java:S6204C"zReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()' and ensure that the list is unmodified.(ª™¨¹8¬æË‡2J$58267731-be35-493e-afd2-d398fcc85b40
+“
+java:S1128"QRemove this unused import 'com.targetready.orderService.helper.OrderIdGenerator'.(Æáª?8øñéË‡2J$67b1a359-4b0d-4313-b507-1df566910b1c

@@ -1,4 +1,4 @@
-package com.targetready.bankService.repository;
+package com.targetready.orderService.repository;
 
 import com.targetready.orderService.model.Invoice;
 import org.springframework.data.jpa.repository.JpaRepository;

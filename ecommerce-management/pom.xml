@@ -23,6 +23,8 @@
         <module>OrderService</module>
         <module>PaymentService</module>
         <module>BankService</module>
+        <module>InventoryService</module>
+        <module>InventoryService</module>
     </modules>
 
     <dependencyManagement>

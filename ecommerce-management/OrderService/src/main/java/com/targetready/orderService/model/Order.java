@@ -1,9 +1,11 @@
 package com.targetready.orderService.model;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 @Setter
 @Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class Order {
     private String orderId;
     private double amount;

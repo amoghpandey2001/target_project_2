@@ -35,7 +35,7 @@ class InvoiceTest {
     void testGetAndSetStatus() {
         Invoice invoice = new Invoice();
         invoice.setStatus(true);
-        assertTrue(invoice.isStatus());
+        assertEquals(true, invoice.getStatus());
     }
 
     @Test

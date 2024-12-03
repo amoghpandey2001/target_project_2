@@ -1,0 +1,8 @@
+
+Œ	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óØ‘¶J$38e205e3-eed3-4b74-ba7b-8de3486befff
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜ºâØJ$0257b8d3-aff1-4b75-9c87-41278e84cb7d
+†	java:S112$"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒéüÿÿÿÿJ$7effa442-577d-4d9e-97c7-b287f83eb5e8
+v
+java:S6213":Rename this variable to not match a restricted identifier.(ÞŸøœJ$a20b8c4c-c434-47d8-af52-30a02fb50baf
+k	java:S106"+Replace this use of System.out by a logger.(‹¼ÕÉýÿÿÿÿJ$d8f4517b-1db2-4902-8b4f-497a9990ba2a
+k	java:S106"+Replace this use of System.out by a logger.(ûñ õÿÿÿÿÿJ$03758bfc-a334-4c0c-8b2f-2aa9890673c0
